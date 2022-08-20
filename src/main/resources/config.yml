@@ -1,0 +1,5 @@
+token: testToken
+symbol: BTCUSDT
+crypto: BTC
+owner_id: testId
+decimal: 4
