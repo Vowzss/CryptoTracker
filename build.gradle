@@ -1,0 +1,47 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+tasks.shadowJar.configure {
+    classifier = null
+}
+
+group 'com.noideaindustry'
+archivesBaseName = "CryptoTracker"
+
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_1_8
+
+mainClassName = 'com.noideaindustry.cryptotracker.CryptoTracker'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://m2.dv8tion.net/releases"
+    }
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+
+dependencies {
+    implementation 'org.slf4j:slf4j-nop:1.7.25'
+
+    implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
+    implementation 'net.dv8tion:JDA:4.4.0_350'
+    implementation 'me.carleslc.Simple-YAML:Simple-Yaml:1.7.2'
+    implementation 'com.konghq:unirest-java:3.13.10'
+}
+
+compileJava {
+    options.encoding = "UTF-8"
+}
+
+sourceSets {
+    main {
+        java.srcDir('src/main')
+        resources.srcDir('src/main')
+    }
+}
