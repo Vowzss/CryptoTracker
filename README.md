@@ -10,7 +10,7 @@ First of all you need to install Java 8.<br/>
 Then you can drag and drop **"CryptoTracker.jar"** inside your folder of choice.<br/>
 
 # Run
-```json
+```
 java -jar CryptoTracker.jar
 ```
 You can also use a session manager to make your bot run 24h/24.<br/>
