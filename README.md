@@ -35,10 +35,10 @@ You have two exemples:
 The configuration is pretty self-explanatory:
 * `token`: your bot token generated when creating an app on (https://discord.com/developers/applications).<br/>
 * `symbol`: ***PAIR1*** is the crypto you want to track and ***PAIR2*** is it's reference price<br/> 
-    -> (BTCUSDT) as an exemple means you are tracking BTC price according to the USDT price.<br/>
-- `crypto`: ***PAIR1*** is the crypto you want to track<br/> 
-- `owner_id`: your personal id on discord (optional).<br/> 
-- `decimal`: decimal displayed on the price. (refer to "Tracking Exemples").<br/> 
+    -> (BTCUSDT) as an exemple means you are tracking BTC price according to the USDT price.<br/> 
+* `crypto`: ***PAIR1*** is the crypto you want to track<br/> 
+* `owner_id`: your personal id on discord (optional).<br/> 
+* `decimal`: decimal displayed on the price. (refer to "Tracking Exemples").<br/> 
     -> **4** as an exemple means with pair ***BTCUSDT*** : "***6185***"<br/> 
     -> **1** as an exemple means with pair ***LTCUSDT*** : "***9***"<br/> 
 
