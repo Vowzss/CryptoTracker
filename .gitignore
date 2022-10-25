@@ -1,4 +1,4 @@
-[Bb]uild
-.gradle
-.idea
-run
+**/[Bb]uild
+**/.gradle
+**/.idea
+**/run
