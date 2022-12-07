@@ -25,8 +25,8 @@ Display is done automatically, though you can have a look at the bot's stats by 
 # Configuration
 This is how the configuration looks like.<br/>
 
-![](screenshots/config_default_exemple.png?raw=true "Default Config Exemple")
-![](screenshots/config_custom_exemple.png?raw=true "Custom Config Exemple")
+![](Showcase/config_default_exemple.png?raw=true "Default Config Exemple")
+![](Showcase/config_custom_exemple.png?raw=true "Custom Config Exemple")
 
 You have two exemples:
 - on the left, the default configuration that you will have to fill up with your informations.<br/>
@@ -45,9 +45,9 @@ The configuration is pretty self-explanatory:
 # Tracking Exemples
 Some exemples of configurations that can run.<br/>
 
-![](screenshots/btc_exemple.png?raw=true "BTC/USDT Tracking Exemple")
-![](screenshots/eth_exemple.png?raw=true "ETH/USDT Tracking Exemple")
-![](screenshots/ltc_exemple.png?raw=true "LTC/USDT Tracking Exemple")
+![](Showcase/btc_exemple.png?raw=true "BTC/USDT Tracking Exemple")
+![](Showcase/eth_exemple.png?raw=true "ETH/USDT Tracking Exemple")
+![](Showcase/ltc_exemple.png?raw=true "LTC/USDT Tracking Exemple")
 
 # Other information
 Looking to get more details? Please refer to Binance API on (https://www.binance.com/en/binance-api).<br/>
